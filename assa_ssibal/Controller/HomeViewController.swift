@@ -11,7 +11,7 @@ import Firebase
 
 class HomeViewController: UIViewController {
     
-    @IBOutlet weak var home: UITabBarItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

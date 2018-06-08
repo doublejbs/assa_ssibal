@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--프로필-->
+        <scene sceneID="9Ny-Ag-hzz">
+            <objects>
+                <viewController title="프로필" id="9sn-dc-wVK" customClass="ProfileViewController" customModule="assa_ssibal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yV4-2f-Nvg"/>
+                        <viewControllerLayoutGuide type="bottom" id="c2h-cW-9E9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4la-IN-b7S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="프로필" id="Ir4-4Z-lVw">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="AKn-ub-cng">
+                            <connections>
+                                <action selector="logoutPressed:" destination="9sn-dc-wVK" id="Fmo-pB-Zx1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQD-WM-HzO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3166" y="1047"/>
+        </scene>
+        <!--프로필-->
+        <scene sceneID="on1-WO-ogl">
+            <objects>
+                <navigationController storyboardIdentifier="ProfileID" automaticallyAdjustsScrollViewInsets="NO" id="nHE-Hl-6em" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="프로필" id="2LD-pa-jl1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bmj-QA-rdR">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9sn-dc-wVK" kind="relationship" relationship="rootViewController" id="4f1-fb-j8m"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bau-NA-LLY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3166" y="73"/>
+        </scene>
+    </scenes>
+</document>

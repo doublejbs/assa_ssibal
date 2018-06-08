@@ -17,6 +17,9 @@
 		8C42C8971FAE7A6E004BE49A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C8961FAE7A6E004BE49A /* RegisterViewController.swift */; };
 		8C42C8991FAE7A89004BE49A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C8981FAE7A89004BE49A /* LoginViewController.swift */; };
 		8C42C89B1FAE7AC8004BE49A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C89A1FAE7AC8004BE49A /* HomeViewController.swift */; };
+		8C450FC11FAF9A8C004B59CB /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C450FC01FAF9A8C004B59CB /* NotificationViewController.swift */; };
+		8C450FC31FAF9B73004B59CB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C450FC21FAF9B73004B59CB /* SearchViewController.swift */; };
+		8C450FC71FAF9BCE004B59CB /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C450FC61FAF9BCE004B59CB /* TimetableViewController.swift */; };
 		8CE03F3C1FAE9415005A51D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CE03F3B1FAE9415005A51D1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,9 @@
 		8C42C8961FAE7A6E004BE49A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		8C42C8981FAE7A89004BE49A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8C42C89A1FAE7AC8004BE49A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8C450FC01FAF9A8C004B59CB /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		8C450FC21FAF9B73004B59CB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8C450FC61FAF9BCE004B59CB /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
 		8CE03F3B1FAE9415005A51D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +112,9 @@
 				8C42C8961FAE7A6E004BE49A /* RegisterViewController.swift */,
 				8C42C8981FAE7A89004BE49A /* LoginViewController.swift */,
 				8C42C89A1FAE7AC8004BE49A /* HomeViewController.swift */,
+				8C450FC01FAF9A8C004B59CB /* NotificationViewController.swift */,
+				8C450FC21FAF9B73004B59CB /* SearchViewController.swift */,
+				8C450FC61FAF9BCE004B59CB /* TimetableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,9 +274,12 @@
 			files = (
 				8C42C8811FAE78E7004BE49A /* ViewController.swift in Sources */,
 				8C42C8871FAE78E7004BE49A /* assa_ssibal.xcdatamodeld in Sources */,
+				8C450FC31FAF9B73004B59CB /* SearchViewController.swift in Sources */,
 				8C42C87F1FAE78E7004BE49A /* AppDelegate.swift in Sources */,
+				8C450FC11FAF9A8C004B59CB /* NotificationViewController.swift in Sources */,
 				8C42C8991FAE7A89004BE49A /* LoginViewController.swift in Sources */,
 				8C42C8971FAE7A6E004BE49A /* RegisterViewController.swift in Sources */,
+				8C450FC71FAF9BCE004B59CB /* TimetableViewController.swift in Sources */,
 				8C42C89B1FAE7AC8004BE49A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
