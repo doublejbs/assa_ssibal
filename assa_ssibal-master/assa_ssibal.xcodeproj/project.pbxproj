@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F9DD647E0535785CE05C3BC /* Pods_assa_ssibal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A212D6A0053A2E80C90715B /* Pods_assa_ssibal.framework */; };
+		8C3424EC1FAFCEAE00AC5374 /* tabar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3424EB1FAFCEAE00AC5374 /* tabar.storyboard */; };
 		8C42C87F1FAE78E7004BE49A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C87E1FAE78E7004BE49A /* AppDelegate.swift */; };
 		8C42C8811FAE78E7004BE49A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C8801FAE78E7004BE49A /* ViewController.swift */; };
 		8C42C8841FAE78E7004BE49A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C42C8821FAE78E7004BE49A /* Main.storyboard */; };
@@ -16,17 +17,34 @@
 		8C42C88C1FAE78E7004BE49A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C42C88A1FAE78E7004BE49A /* LaunchScreen.storyboard */; };
 		8C42C8971FAE7A6E004BE49A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C8961FAE7A6E004BE49A /* RegisterViewController.swift */; };
 		8C42C8991FAE7A89004BE49A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C8981FAE7A89004BE49A /* LoginViewController.swift */; };
-		8C42C89B1FAE7AC8004BE49A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C89A1FAE7AC8004BE49A /* HomeViewController.swift */; };
-		8C450FC11FAF9A8C004B59CB /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C450FC01FAF9A8C004B59CB /* NotificationViewController.swift */; };
-		8C450FC31FAF9B73004B59CB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C450FC21FAF9B73004B59CB /* SearchViewController.swift */; };
-		8C450FC71FAF9BCE004B59CB /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C450FC61FAF9BCE004B59CB /* TimetableViewController.swift */; };
-		8CE03F3C1FAE9415005A51D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CE03F3B1FAE9415005A51D1 /* GoogleService-Info.plist */; };
+		8C6BB9DB20CA4776003B30CD /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6BB9DA20CA4776003B30CD /* LaunchScreen.png */; };
+		8CA017381FB94D8100106937 /* TimeTableSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA017371FB94D8100106937 /* TimeTableSelectorViewController.swift */; };
+		8CB709F8201DEA820062AA9D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB709F7201DEA820062AA9D /* Post.swift */; };
+		8CC056911FB23E1900B4338E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC056901FB23E1900B4338E /* SearchViewController.swift */; };
+		8CC056931FB23E2600B4338E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC056921FB23E2600B4338E /* NotificationViewController.swift */; };
+		8CC056951FB23E3000B4338E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC056941FB23E3000B4338E /* ProfileViewController.swift */; };
+		8CC34F061FFD35AA001EED3A /* NanumMyeongjo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8CC34F031FFD35AA001EED3A /* NanumMyeongjo.otf */; };
+		8CC34F071FFD35AA001EED3A /* NanumMyeongjoBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8CC34F041FFD35AA001EED3A /* NanumMyeongjoBold.otf */; };
+		8CC34F081FFD35AA001EED3A /* NanumMyeongjoExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8CC34F051FFD35AA001EED3A /* NanumMyeongjoExtraBold.otf */; };
+		8CCAEA1C1FB8ECAE009C4B96 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAEA1B1FB8ECAE009C4B96 /* GoogleService-Info.plist */; };
+		8CD040C61FBC07B700EBC251 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD040C51FBC07B700EBC251 /* HomeViewController.swift */; };
+		8CD040C81FBC0A6900EBC251 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD040C71FBC0A6900EBC251 /* Home.storyboard */; };
+		8CD040CC1FBC0B9500EBC251 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD040CB1FBC0B9500EBC251 /* Profile.storyboard */; };
+		8CD040D41FBC0DF800EBC251 /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD040CD1FBC0DF700EBC251 /* TimeTableViewCell.swift */; };
+		8CD040D51FBC0DF800EBC251 /* TimetableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD040CE1FBC0DF700EBC251 /* TimetableItem.swift */; };
+		8CD040D61FBC0DF800EBC251 /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD040CF1FBC0DF700EBC251 /* TimeTableView.swift */; };
+		8CD040D71FBC0DF800EBC251 /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD040D01FBC0DF700EBC251 /* TimeTableViewController.swift */; };
+		8CD040D81FBC0DF800EBC251 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD040D11FBC0DF800EBC251 /* WeekdayView.swift */; };
+		8CD040D91FBC0DF800EBC251 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD040D21FBC0DF800EBC251 /* CustomView.swift */; };
+		8CF473061FBC2D0600457781 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF473051FBC2D0600457781 /* Courses.swift */; };
+		8CF9746D1FB7F12800B67355 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF9746C1FB7F12800B67355 /* BoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		476358CB0D4DCD8209D1BAC4 /* Pods-assa_ssibal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assa_ssibal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-assa_ssibal/Pods-assa_ssibal.debug.xcconfig"; sourceTree = "<group>"; };
 		74B939953117AB290C549F14 /* Pods-assa_ssibal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assa_ssibal.release.xcconfig"; path = "Pods/Target Support Files/Pods-assa_ssibal/Pods-assa_ssibal.release.xcconfig"; sourceTree = "<group>"; };
 		8A212D6A0053A2E80C90715B /* Pods_assa_ssibal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_assa_ssibal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3424EB1FAFCEAE00AC5374 /* tabar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = tabar.storyboard; sourceTree = "<group>"; };
 		8C42C87B1FAE78E7004BE49A /* assa_ssibal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assa_ssibal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C42C87E1FAE78E7004BE49A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C42C8801FAE78E7004BE49A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,11 +55,27 @@
 		8C42C88D1FAE78E7004BE49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C42C8961FAE7A6E004BE49A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		8C42C8981FAE7A89004BE49A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		8C42C89A1FAE7AC8004BE49A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		8C450FC01FAF9A8C004B59CB /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
-		8C450FC21FAF9B73004B59CB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		8C450FC61FAF9BCE004B59CB /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
-		8CE03F3B1FAE9415005A51D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C6BB9DA20CA4776003B30CD /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreen.png; path = ../../../../../Downloads/LaunchScreen.png; sourceTree = "<group>"; };
+		8CA017371FB94D8100106937 /* TimeTableSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableSelectorViewController.swift; sourceTree = "<group>"; };
+		8CB709F7201DEA820062AA9D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8CC056901FB23E1900B4338E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8CC056921FB23E2600B4338E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		8CC056941FB23E3000B4338E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8CC34F031FFD35AA001EED3A /* NanumMyeongjo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumMyeongjo.otf; sourceTree = "<group>"; };
+		8CC34F041FFD35AA001EED3A /* NanumMyeongjoBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumMyeongjoBold.otf; sourceTree = "<group>"; };
+		8CC34F051FFD35AA001EED3A /* NanumMyeongjoExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumMyeongjoExtraBold.otf; sourceTree = "<group>"; };
+		8CCAEA1B1FB8ECAE009C4B96 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CD040C51FBC07B700EBC251 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8CD040C71FBC0A6900EBC251 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8CD040CB1FBC0B9500EBC251 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8CD040CD1FBC0DF700EBC251 /* TimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
+		8CD040CE1FBC0DF700EBC251 /* TimetableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableItem.swift; sourceTree = "<group>"; };
+		8CD040CF1FBC0DF700EBC251 /* TimeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
+		8CD040D01FBC0DF700EBC251 /* TimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		8CD040D11FBC0DF800EBC251 /* WeekdayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		8CD040D21FBC0DF800EBC251 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		8CF473051FBC2D0600457781 /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		8CF9746C1FB7F12800B67355 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,28 +111,28 @@
 		8C42C87D1FAE78E7004BE49A /* assa_ssibal */ = {
 			isa = PBXGroup;
 			children = (
+				8CC34F031FFD35AA001EED3A /* NanumMyeongjo.otf */,
+				8CC34F041FFD35AA001EED3A /* NanumMyeongjoBold.otf */,
+				8CC34F051FFD35AA001EED3A /* NanumMyeongjoExtraBold.otf */,
+				8CF473041FBC2CFA00457781 /* Model */,
 				8C42C8951FAE7951004BE49A /* Controller */,
 				8C42C8941FAE794B004BE49A /* View */,
-				8C42C8931FAE7942004BE49A /* Model */,
 				8C42C8881FAE78E7004BE49A /* Assets.xcassets */,
+				8C6BB9DA20CA4776003B30CD /* LaunchScreen.png */,
 				8C42C88D1FAE78E7004BE49A /* Info.plist */,
 				8C42C8851FAE78E7004BE49A /* assa_ssibal.xcdatamodeld */,
-				8CE03F3B1FAE9415005A51D1 /* GoogleService-Info.plist */,
+				8CCAEA1B1FB8ECAE009C4B96 /* GoogleService-Info.plist */,
 			);
 			path = assa_ssibal;
-			sourceTree = "<group>";
-		};
-		8C42C8931FAE7942004BE49A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		8C42C8941FAE794B004BE49A /* View */ = {
 			isa = PBXGroup;
 			children = (
 				8C42C8821FAE78E7004BE49A /* Main.storyboard */,
+				8C3424EB1FAFCEAE00AC5374 /* tabar.storyboard */,
+				8CD040CB1FBC0B9500EBC251 /* Profile.storyboard */,
+				8CD040C71FBC0A6900EBC251 /* Home.storyboard */,
 				8C42C88A1FAE78E7004BE49A /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -107,16 +141,33 @@
 		8C42C8951FAE7951004BE49A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8CD040D21FBC0DF800EBC251 /* CustomView.swift */,
+				8CD040CE1FBC0DF700EBC251 /* TimetableItem.swift */,
+				8CD040CF1FBC0DF700EBC251 /* TimeTableView.swift */,
+				8CD040CD1FBC0DF700EBC251 /* TimeTableViewCell.swift */,
+				8CD040D01FBC0DF700EBC251 /* TimeTableViewController.swift */,
+				8CD040D11FBC0DF800EBC251 /* WeekdayView.swift */,
 				8C42C87E1FAE78E7004BE49A /* AppDelegate.swift */,
 				8C42C8801FAE78E7004BE49A /* ViewController.swift */,
 				8C42C8961FAE7A6E004BE49A /* RegisterViewController.swift */,
 				8C42C8981FAE7A89004BE49A /* LoginViewController.swift */,
-				8C42C89A1FAE7AC8004BE49A /* HomeViewController.swift */,
-				8C450FC01FAF9A8C004B59CB /* NotificationViewController.swift */,
-				8C450FC21FAF9B73004B59CB /* SearchViewController.swift */,
-				8C450FC61FAF9BCE004B59CB /* TimetableViewController.swift */,
+				8CC056901FB23E1900B4338E /* SearchViewController.swift */,
+				8CC056921FB23E2600B4338E /* NotificationViewController.swift */,
+				8CC056941FB23E3000B4338E /* ProfileViewController.swift */,
+				8CF9746C1FB7F12800B67355 /* BoardViewController.swift */,
+				8CA017371FB94D8100106937 /* TimeTableSelectorViewController.swift */,
+				8CD040C51FBC07B700EBC251 /* HomeViewController.swift */,
+				8CB709F7201DEA820062AA9D /* Post.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8CF473041FBC2CFA00457781 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CF473051FBC2D0600457781 /* Courses.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E3AB7078D936D135B3778E27 /* Frameworks */ = {
@@ -171,6 +222,7 @@
 				TargetAttributes = {
 					8C42C87A1FAE78E7004BE49A = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -198,10 +250,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE03F3C1FAE9415005A51D1 /* GoogleService-Info.plist in Resources */,
+				8CD040C81FBC0A6900EBC251 /* Home.storyboard in Resources */,
 				8C42C88C1FAE78E7004BE49A /* LaunchScreen.storyboard in Resources */,
 				8C42C8891FAE78E7004BE49A /* Assets.xcassets in Resources */,
 				8C42C8841FAE78E7004BE49A /* Main.storyboard in Resources */,
+				8C3424EC1FAFCEAE00AC5374 /* tabar.storyboard in Resources */,
+				8CD040CC1FBC0B9500EBC251 /* Profile.storyboard in Resources */,
+				8C6BB9DB20CA4776003B30CD /* LaunchScreen.png in Resources */,
+				8CC34F061FFD35AA001EED3A /* NanumMyeongjo.otf in Resources */,
+				8CC34F071FFD35AA001EED3A /* NanumMyeongjoBold.otf in Resources */,
+				8CCAEA1C1FB8ECAE009C4B96 /* GoogleService-Info.plist in Resources */,
+				8CC34F081FFD35AA001EED3A /* NanumMyeongjoExtraBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,14 +332,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C42C8811FAE78E7004BE49A /* ViewController.swift in Sources */,
+				8CD040D81FBC0DF800EBC251 /* WeekdayView.swift in Sources */,
+				8CA017381FB94D8100106937 /* TimeTableSelectorViewController.swift in Sources */,
+				8CC056911FB23E1900B4338E /* SearchViewController.swift in Sources */,
+				8CC056931FB23E2600B4338E /* NotificationViewController.swift in Sources */,
 				8C42C8871FAE78E7004BE49A /* assa_ssibal.xcdatamodeld in Sources */,
-				8C450FC31FAF9B73004B59CB /* SearchViewController.swift in Sources */,
 				8C42C87F1FAE78E7004BE49A /* AppDelegate.swift in Sources */,
-				8C450FC11FAF9A8C004B59CB /* NotificationViewController.swift in Sources */,
+				8CD040D61FBC0DF800EBC251 /* TimeTableView.swift in Sources */,
 				8C42C8991FAE7A89004BE49A /* LoginViewController.swift in Sources */,
+				8CD040D91FBC0DF800EBC251 /* CustomView.swift in Sources */,
+				8CC056951FB23E3000B4338E /* ProfileViewController.swift in Sources */,
+				8CD040D41FBC0DF800EBC251 /* TimeTableViewCell.swift in Sources */,
 				8C42C8971FAE7A6E004BE49A /* RegisterViewController.swift in Sources */,
-				8C450FC71FAF9BCE004B59CB /* TimetableViewController.swift in Sources */,
-				8C42C89B1FAE7AC8004BE49A /* HomeViewController.swift in Sources */,
+				8CF9746D1FB7F12800B67355 /* BoardViewController.swift in Sources */,
+				8CD040C61FBC07B700EBC251 /* HomeViewController.swift in Sources */,
+				8CD040D51FBC0DF800EBC251 /* TimetableItem.swift in Sources */,
+				8CB709F8201DEA820062AA9D /* Post.swift in Sources */,
+				8CF473061FBC2D0600457781 /* Courses.swift in Sources */,
+				8CD040D71FBC0DF800EBC251 /* TimeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,12 +487,15 @@
 			baseConfigurationReference = 476358CB0D4DCD8209D1BAC4 /* Pods-assa_ssibal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NFV6WC2X83;
 				INFOPLIST_FILE = assa_ssibal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.assa.assa-ssibal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "assa_ssibal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -434,12 +506,14 @@
 			baseConfigurationReference = 74B939953117AB290C549F14 /* Pods-assa_ssibal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NFV6WC2X83;
 				INFOPLIST_FILE = assa_ssibal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.assa.assa-ssibal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "assa_ssibal-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

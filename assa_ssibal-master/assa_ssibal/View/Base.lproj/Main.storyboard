@@ -185,7 +185,6 @@
         <image name="Rectangle 2" width="259" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mS7-Oc-p2Z"/>
         <segue reference="LQw-pG-sa0"/>
     </inferredMetricsTieBreakers>
 </document>
