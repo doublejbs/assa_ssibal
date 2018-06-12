@@ -1,10 +1,4 @@
-//
-//  TimeTableViewCell.swift
-//  TimeTable
-//
-//  Created by 송종훈 on 2017. 5. 21..
-//  Copyright © 2017년 swiftBook. All rights reserved.
-//
+
 
 import Foundation
 import UIKit
